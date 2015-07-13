@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainWearActivity"
+    tools:deviceIds="wear_round"
+    android:background="@drawable/galaxy">
+
+    <TextView android:id="@+id/text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" android:text="Hello, Universe!"
+        android:textSize="25dp" android:textColor="@color/green" android:fontFamily="sans-serif-condensed"
+        />
+
+    <TextView android:id="@+id/interest" android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" android:layout_below="@id/text" android:text="Welcome to !nterest,"
+        android:textSize="15dp" android:gravity="center" android:textColor="@color/green"
+        />
+    <TextView android:id="@+id/shake" android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" android:layout_below="@id/interest" android:text="shake to explore."
+        android:textSize="15dp" android:gravity="center" android:textColor="@color/green"
+        />
+</RelativeLayout>
